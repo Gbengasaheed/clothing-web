@@ -4,7 +4,7 @@ import { faFacebook, faTwitter, faYoutube, faInstagram } from '@fortawesome/free
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8 margin-top: auto">
       <div className="container mx-auto flex justify-center items-center">
         <div className="flex space-x-4">
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">

@@ -21,11 +21,11 @@ const Home = () => {
       </div>
 
       <div className=" p-10 mt-10">
-        <h1 className=' text-3xl p-3 m-8'>Trending This Week</h1>
+        <h1 className=' text-3xl p-3 m-12'>Trending This Week</h1>
         
-        <div className="grid grid-cols-3 gap-6 ">
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
           
-        <div className="bg-white  shadow-md rounded-lg relative">
+        <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl hover cursor-pointer relative">
             <img src="/v21.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
@@ -34,14 +34,14 @@ const Home = () => {
 
           </div>
           
-          <div className="bg-white  shadow-md rounded-lg relative">
+          <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl cursor-pointer relative">
             <img src="/v20.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
               <p className="text-gray-600">&pound;35.99</p>
             </div>
           </div>
-          <div className="bg-white  shadow-md rounded-lg relative">
+          <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl cursor-pointer relative">
             <img src="/v17.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
@@ -59,24 +59,24 @@ const Home = () => {
         </video>
       </div>
       <div className=" p-10 mt-10">
-        <h1 className=' text-3xl p-3 m-8'>More Inspiration</h1>
+        <h1 className=' text-3xl p-3 m-12'>More Inspiration</h1>
         
-        <div className="grid grid-cols-3 gap-6 ">
-        <div className="bg-white  shadow-md rounded-lg relative">
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
+        <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl cursor-pointer relative">
             <img src="/v5.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
               <p className="text-gray-600">&pound;35.99</p>
             </div>
           </div>
-          <div className="bg-white  shadow-md rounded-lg relative">
+          <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl cursor-pointer relative">
             <img src="/v11.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
               <p className="text-gray-600">&pound;35.99</p>
             </div>
           </div>
-          <div className="bg-white  shadow-md rounded-lg relative">
+          <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl cursor-pointer relative">
             <img src="/v7.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
@@ -87,23 +87,23 @@ const Home = () => {
         </div>
     </div>
     <div className=" p-10 mt-10">
-        <h1 className=' text-3xl p-3 m-8'>Latest & Greatest</h1>
-        <div className="grid grid-cols-3 gap-6 ">
-        <div className="bg-white  shadow-md rounded-lg relative">
+        <h1 className=' text-3xl p-3 m-12'>Latest & Greatest</h1>
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
+        <div className="bg-white  shadow-md rounded-lg relative hover:shadow-3xl cursor-pointer">
             <img src="/v4.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
               <p className="text-gray-600">&pound;35.99</p>
             </div>
           </div>
-        <div className="bg-white  shadow-md rounded-lg relative">
+        <div className="bg-white  shadow-md rounded-lg  hover:shadow-3xl relative cursor-pointer">
             <img src="/v8.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
               <p className="text-gray-600">&pound;35.99</p>
             </div>
           </div>
-          <div className="bg-white  shadow-md rounded-lg relative">
+          <div className="bg-white  shadow-md rounded-lg hover:shadow-3xl relative cursor-pointer">
             <img src="/v15.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
               <h2 className="text-xl font-bold">Vindi Top</h2>
